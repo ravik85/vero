@@ -76,7 +76,7 @@ body {
     padding: 0; }
     #mainNav .container .navbar-brand {
       color: #fed136;
-      font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
+      font-family: "Pacifico", "Helvetica Neue", Helvetica, Arial, cursive; }
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
         color: #fec503; }
     #mainNav .container .navbar-nav .nav-item .nav-link {
@@ -133,12 +133,14 @@ header.masthead {
       line-height: 22px;
       margin-bottom: 25px; }
     header.masthead .intro-text .intro-heading {
-      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Fjalla One", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
       font-weight: 700;
-      font-size: 50px;
-      line-height: 50px;
-      margin-bottom: 25px; }
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 5px; }
+      header.masthead .intro-text .intro-logo {
+      margin-bottom: 40px; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -147,16 +149,19 @@ header.masthead {
     header.masthead .intro-text .intro-lead-in {
       font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-style: italic;
-      font-size: 40px;
-      line-height: 40px;
+      font-size: 30px;
+      line-height: 30px;
       margin-bottom: 25px; }
     header.masthead .intro-text .intro-heading {
-      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Fjalla One", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
       font-weight: 700;
-      font-size: 75px;
-      line-height: 75px;
-      margin-bottom: 50px; } }
+      font-size: 60px;
+      line-height: 60px;
+      margin-bottom: 5px; } 
+      header.masthead .intro-text .intro-logo {
+      margin-bottom: 35px; } 
+      }
 
 .service-heading {
   margin: 15px 0;
@@ -436,8 +441,9 @@ header.masthead {
 
 section#contact {
   background-color: #222222;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/map-image.jpg");
   background-position: center;
+  background-size: 100%; 
   background-repeat: no-repeat; }
   section#contact .section-heading {
     color: white; }
