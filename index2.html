@@ -9,14 +9,18 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template -->
+  <link rel="icon" type="image/png" href="favico.png">
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+ 
   <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Pacifico" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/fluid-gallery.css">
   <!-- Temporary navbar container fix -->
   <style>
     .navbar-toggler {
@@ -40,7 +44,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"> <a class="nav-link" href="#services">Usługi</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#portfolio">nasza Praca</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#portfolio">nasze Prace</a> </li>
           <li class="nav-item"> <a class="nav-link" href="#about">o nas</a> </li>
           <li class="nav-item"> <a class="nav-link" href="#contact">kontakt</a> </li>
         </ul>
@@ -61,7 +65,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Usługi</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">Oferujemy meble o dowolnych wymiarach z wykorzystaniem różnorodnych materiałów.</h3>
         </div>
       </div>
       <div class="row text-center">
@@ -91,74 +95,60 @@
   </section>
   <!-- Portfolio Grid -->
   <section class="bg-faded" id="portfolio">
-    <div class="container">
+    <div class="container-full">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">Pracę oraz wykonania, z których jesteśmy dumni</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <div class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-            </div> <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt=""> </div>
-          <div class="portfolio-caption">
-            <h4>Threads</h4>
-            <p class="text-muted">Illustration</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <div class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-            </div> <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt=""> </div>
-          <div class="portfolio-caption">
-            <h4>Explore</h4>
-            <p class="text-muted">Graphic Design</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <div class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-            </div> <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt=""> </div>
-          <div class="portfolio-caption">
-            <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <div class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-            </div> <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt=""> </div>
-          <div class="portfolio-caption">
-            <h4>Lines</h4>
-            <p class="text-muted">Branding</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <div class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-            </div> <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt=""> </div>
-          <div class="portfolio-caption">
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <div class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-            </div> <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt=""> </div>
-          <div class="portfolio-caption">
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
-          </div>
-        </div>
+     
+                      
+              <div class="tz-gallery">
+
+                  <div class="row">
+                      <div class="col-sm-12 col-md-4">
+                          <a class="lightbox" href="img/portfolio/01-full.jpg">
+                              <img src="img/portfolio/01-thumbnail.jpg" alt="Bridge">
+                          </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                          <a class="lightbox" href="img/portfolio/02-full.jpg">
+                              <img src="img/portfolio/02-thumbnail.jpg" alt="Bridge">
+                          </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/portfolio/03-full.jpg">
+                              <img src="img/portfolio/03-thumbnail.jpg" alt="Bridge">
+                          </a>
+                      </div>
+                      <div class="col-sm-12 col-md-8">
+                            <a class="lightbox" href="img/portfolio/04-full.jpg">
+                              <img src="img/portfolio/04-thumbnail.jpg" alt="Bridge">
+                          </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                          <a class="lightbox" href="img/portfolio/05-full.jpg">
+                              <img src="img/portfolio/05-thumbnail.jpg" alt="Bridge">
+                          </a>
+                      </div> 
+                      <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/portfolio/06-full.jpg">
+                              <img src="img/portfolio/06-thumbnail.jpg" alt="Bridge">
+                          </a>
+                      </div>
+
+                  </div>
+
+                </div>
+     
+
+      </div>
+      
+      <div class="row">
+
+
       </div>
     </div>
   </section>
@@ -167,119 +157,118 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">About</h2>
+          <h2 class="section-heading">O nas</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <p>
+            Oferujemy meble o dowolnych wymiarach z wykorzystaniem różnorodnych materiałów. Wieloletnie doświadczenie umożliwia nam wykonywać meble funkcjonalne, estetyczne i trwałe. W naszych meblach na wymiar stosujemy rozwiązania praktyczne i sprawdzone, które pozwalają na maksymalne wykorzystanie powierzchni dostępnej do zabudowy.
+Wykonujemy na zamówienie:
+
+meble kuchenne, meble pokojowe, szafy wnękowe z drzwiami przesuwnymi i tradycyjnie otwierane szafy wolno-stojące, meble łazienkowe, garderoby, meble sklepowe, meble biurowe oraz inne nietypowe meble na wymiar.
+
+staramy się aby zamawiane u nas szafy były jak najbardziej FUNKCJONALNE i PRAKTYCZNE a jednocześnie estetyczne i elegancko prezentowały się we wnętrzu. Gwarantujemy, że nasze szafy będą prawdziwą OZDOBĄ każdego pomieszczenia!
+Proponujemy szafy wszelkich typów:
+
+    szafy ubraniowe - dostosowane do przechowywania garderoby
+    szafy wnękowe - zabudowujące małe przestrzenie, najczęściej z drzwiami przesuwnymi
+    szafy gospodarcze - bez problemu znajdzie się w nich miejsce na deskę do prasowania czy odkurzacz
+    szafy biurowe - służące do ergonomicznego składowania dokumentów
+    szafy kuchenne, spiżarniane, szafki na buty, pawlacze
+To nowoczesne i wygodne rozwiązanie problemu efektywnego zagospodarowania przestrzeni.
+
+          </p>
+          <p>
+            Kuchnia to jedno z najważniejszych, a jednocześnie najbardziej eksploatowanych miejsc w
+
+każdym domu.
+
+Z tego powodu meble kuchenne muszą być nie tylko piękne, ale także bardzo funkcjonalne i
+
+trwałe, solidne i eleganckie.
+
+Posiadamy wieloletnie, bogate doświadczenie, oraz wielu zadowolonych klientów, którzy
+
+nawet po latach użytkowania zaprojektowanej i wykonanej przez nas kuchni doceniają jej
+
+walory – zarówno wizualne, jak i czysto praktyczne.
+
+Nasza oferta zawiera między innymi:
+
+fronty laminowane
+
+fronty lakierowane matowe, z półpołyskiem lub z wysokim połyskiem
+
+fronty foliowane
+
+fronty ramowo-płyciniowe
+
+fronty fornirowane, czyli oklejane warstwą naturalnego drewna
+
+Aby ułatwić przechowywanie i dostęp do kuchennych narzędzi i produktów proponujemy
+
+wykorzystanie takich elementów wyposażenia jak:
+
+carga, carga maxi lub obrotowe
+
+szuflady z dociągiem lub cichym domykiem
+
+wysuwane organizery i magic boxy
+
+suszarki, półki na wina, kosze na śmieci montowane w szafkach
+
+Obsługujemy Klientów na terenie miasta Tychy i najbliższych okolic
+
+Zachęcamy do kontaktu i gwarantujemy długoletnie zadowolenie z wykonanych przez nas
+
+mebli na wymiar oraz krótki czas realizacji.
+          </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image"> <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 class="subheading">Our Humble Beginnings</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image"> <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 class="subheading">An Agency is Born</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image"> <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image"> <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt=""> </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part <br>Of Our <br>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
+
     </div>
   </section>
-  <!-- Team -->
-  <section class="bg-faded" id="team">
+
+  
+ 
+  <!-- Contact -->
+  <section id="contact" >
     <div class="container">
-      <div class="row">
+       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Our Amazing Team</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading">Skontaktuj się z nami</h2>
+          <h3 class="section-subheading ">Obsługujemy Klientów na terenie miasta Tychy i najbliższych okolic. Zachęcamy do kontaktu i gwarantujemy długoletnie zadowolenie z wykonanych przez nas mebli na wymiar oraz krótki czas realizacji.</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <div class="team-member"> <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Kay Garland</h4>
-            <p class="text-muted">Lead Designer</p>
+            <h4>Sławomir Mikołajczyk</h4>
+            <p class="lead"><i style="font-size:30px;" class="fa fa-phone"><strong>  503 575 403</strong></i></p>
             <ul class="list-inline social-buttons">
-              <li class="list-inline-item"> <a href="#"><i class="fa fa-twitter"></i></a> </li>
-              <li class="list-inline-item"> <a href="#"><i class="fa fa-facebook"></i></a> </li>
-              <li class="list-inline-item"> <a href="#"><i class="fa fa-linkedin"></i></a> </li>
-            </ul>
+              <li class="list-inline-item"> <a href="https://www.facebook.com/verotychy"><i class="fa fa-facebook"></i></a> </li>
+              </ul>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <div class="team-member"> <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Larry Parker</h4>
-            <p class="text-muted">Lead Marketer</p>
+            <h4>Beata Mikołajczyk</h4>
+            <p class="lead"><i style="font-size:30px;" class="fa fa-phone"><strong>  508 245 282</strong></i></p>
+            
             <ul class="list-inline social-buttons">
-              <li class="list-inline-item"> <a href="#"><i class="fa fa-twitter"></i></a> </li>
-              <li class="list-inline-item"> <a href="#"><i class="fa fa-facebook"></i></a> </li>
-              <li class="list-inline-item"> <a href="#"><i class="fa fa-linkedin"></i></a> </li>
-            </ul>
+              <li class="list-inline-item"> <a href="https://www.facebook.com/verotychy"><i class="fa fa-facebook"></i></a> </li>
+              </ul>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="team-member"> <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-            <h4>Diana Pertersen</h4>
-            <p class="text-muted">Lead Developer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item"> <a href="#"><i class="fa fa-twitter"></i></a> </li>
-              <li class="list-inline-item"> <a href="#"><i class="fa fa-facebook"></i></a> </li>
-              <li class="list-inline-item"> <a href="#"><i class="fa fa-linkedin"></i></a> </li>
-            </ul>
-          </div>
-        </div>
+       
       </div>
+    
+    </div>
+  </section>
+   <!--Mapa-->
+  <section id="mapy" class="p-0">
+    <div class="container-full" id="map" style="width:100%;height:55%;">
+      
       <div class="row">
-        <div class="col-lg-8 offset-lg-2 text-center">
-          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-        </div>
+       
       </div>
     </div>
   </section>
@@ -302,253 +291,49 @@
       </div>
     </div>
   </section>
-  <!--Mapa-->
-  <section id="mapy" class="p-0">
-    <div class="container-full" id="map" style="width:100%;height:55%;background:yellow">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-       dfghdfhdf
-      </div>
-    </div>
-  </section>
-  <!-- Contact -->
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-       dfghdfhdf
-      </div>
-    </div>
-  </section>
   <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-4"> <span class="copyright">Copyright © Your Website 2017</span> </div>
+        <div class="col-md-4"> <span class="copyright">Copyright © vero.tychy.pl 2017</span> </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
-            <li class="list-inline-item"> <a href="#"><i class="fa fa-twitter"></i></a> </li>
-            <li class="list-inline-item"> <a href="#"><i class="fa fa-facebook"></i></a> </li>
-            <li class="list-inline-item"> <a href="#"><i class="fa fa-linkedin"></i></a> </li>
-          </ul>
+            <li class="list-inline-item"> <a href="https://www.facebook.com/verotychy"><i class="fa fa-facebook"></i></a> </li>
+             </ul>
         </div>
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
-            <li class="list-inline-item"> <a href="#">Privacy Policy</a> </li>
-            <li class="list-inline-item"> <a href="#">Terms of Use</a> </li>
+            
           </ul>
         </div>
       </div>
     </div>
   </footer>
-  <!-- Portfolio Modals -->
-  <!-- Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"> </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                  repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
-                </ul> <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"> </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                  repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
-                </ul> <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"> </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                  repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
-                </ul> <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"> </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                  repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul> <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"> </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                  repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul> <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"> </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2>Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores
-                  repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul> <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close Project</button> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/tether/tether.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-  <!-- Custom scripts for this template -->
+   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>
 
 <script>
-function myMap() {
-  var mapCanvas = document.getElementById("map");
-  var mapOptions = {
-    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
-  };
-  var map = new google.maps.Map(mapCanvas, mapOptions);
-}
+function init_map(){
+  var myOptions = {zoom:12,center:new google.maps.LatLng(50.1115489,19.001240000000053),mapTypeId: google.maps.MapTypeId.ROADMAP};
+  map = new google.maps.Map(document.getElementById('map'), myOptions);
+  //marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.1115489,19.001240000000053)});
+  //infowindow = new google.maps.InfoWindow({content:'<center><img src="favico.png" height="72"></img><br>Al. Niepodległości 186,<br>43-100 Tychy</center>'});
+  //google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});
+  infowindow.open(map);}
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMTOPFWR9YXddEkOgN8sM8p2OKroyv1qU&callback=init_map"></script>
 <!--
 
 </body>

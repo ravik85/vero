@@ -440,7 +440,7 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
-  background-color: #222222;
+ 
   background-image: url("../img/map-image.jpg");
   background-position: center;
   background-size: 100%; 
@@ -604,3 +604,5 @@ ul.social-buttons {
   .btn-xl .badge {
     color: #fed136;
     background-color: white; }
+
+
