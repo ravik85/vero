@@ -1,40 +1,465 @@
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.css" type="text/css"> </head>
-
-<body>
-  <div class="bg-primary text-center d-flex h-100 align-items-center" style="background-image: url(&quot;heade.jpg&quot;);"></div>
-  <div class="py-5 bg-primary text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-4"> <a href="https://pl-pl.facebook.com/verotychy/"><i class="fa fa-5x fa-fw fa-facebook text-white"></i></a> </div>
-        <div class="col-4"> <a><i class="fa fa-5x fa-fw fa-twitter text-white"></i></a> </div>
-        <div class="col-4"> <a><i class="fa fa-5x fa-fw fa-instagram text-white"></i></a> </div>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Vero meble skrojone dla Ciebie ...</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link rel="icon" type="image/png" href="favico.png">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Pacifico" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fluid-gallery.css">
+    <!-- Temporary navbar container fix -->
+    <style>
+      .navbar-toggler {
+        z-index: 1;
+      }
+  
+      @media (max-width: 576px) {
+        nav>.container {
+          width: 100%;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="css\agency.css"> </head>
+  
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
+      <div class="container"> <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  Menu <i class="fa fa-bars"></i>
+              </button> <a class="navbar-brand" href="#page-top">Zacznij z Vero...</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> <a class="nav-link" href="#services">Usługi</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#portfolio">nasze Prace</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#about">o nas</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#contact">kontakt</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/verotychy"><i style="font-size:20px;" class="fa fa-facebook"></i></a> </li>
+          </ul>
+          
+             
+          
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="bg-faded py-0 text-center">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 text-center align-self-center"> <img class="center-block img-fluid d-block mx-auto" src="logo.png">
-          <p><b>Vero PPHU</b>&nbsp;<br>Tychy, 43-100&nbsp;<br>Telefon: 508 245 282 lub 503 575 403</p>
-          <div class="my-3 row text-center">
-            <div class="col-4"> <a href="https://pl-pl.facebook.com/verotychy/"><i class="fa fa-3x fa-facebook text-primary"></i></a> </div>
-            <div class="col-4"> <a><i class="fa fa-3x fa-twitter text-primary"></i></a> </div>
-            <div class="col-4"> <a><i class="fa fa-3x fa-instagram text-primary"></i></a> </div>
+    </nav>
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text"> <img class="intro-logo center-block img-fluid d-block mx-auto" src="img\vero.png">
+          <div class="intro-heading">Meble na wymiar</div>
+          <div class="intro-lead-in">#kuchnie #szafy #meble</div> <a href="#services" class="btn btn-xl">Sprawdź nas</a> </div>
+      </div>
+    </header>
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Indywidualna perfekcja</h2>
+            <h3 class="section-subheading text-muted"><p class="text-justify">Przygotowaliśmy projekty kuchni do wszystkich rodzajów domów, niezależnie od wielkości i architektury środowiska. Każdy nowy projekt zaczyna się od czystego arkusza papieru nad którym pracujemy w pełni uwzględniając przestrzeń i preferencje projektu klienta, aby stworzyć wyjątkową, indywidualną kuchnię. Bez względu na ograniczenia, dążymy do perfekcji.</p>
+            </h3>
           </div>
         </div>
-        <div class="col-md-6 p-0"> <img class="img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDMTOPFWR9YXddEkOgN8sM8p2OKroyv1qU&amp;center=tychy&amp;zoom=12&amp;size=640x300&amp;sensor=false&amp;scale=2"> </div>
+        <div class="row text-center">
+          <div class="col-md-3"> <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-calendar-check-o fa-stack-1x fa-inverse"></i>
+                      </span>
+            <h4 class="service-heading">Jakość</h4>
+            <p class="text-center">Każdy produkt, który produkujemy i sprzedajemy, jest utrzymywany na najwyższym poziomie jakości. Nie sprzedalibyśmy Ci tego, czego nie chcielibyśmy mieć w naszych domach.</p>
+          </div>
+          <div class="col-md-3"> <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-gears fa-stack-1x fa-inverse"></i>
+                      </span>
+            <h4 class="service-heading">Doświadczenie</h4>
+            <p class="text-center">Projektujemy, produkujemy i sprzedajemy meble już blisko 10 lat. Wszyscy nasi pracownicy są dobrze wyszkoleni i specjalizują się w pracy jako zespół w tworzeniu doskonałych produktów.
+            </p>
+          </div>
+          <div class="col-md-3"> <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+                      </span>
+            <h4 class="service-heading">Wybór</h4>
+            <p class="text-center">Bez względu na to, czego szukasz, możesz być pewien, że Vero ma to do dyspozycji. Jeśli nie widzisz tego, czego szukasz, po prostu Zapytaj nas.
+            </p>
+          </div>
+  
+          <div class="col-md-3"> <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-diamond fa-stack-1x fa-inverse"></i>
+                      </span>
+            <h4 class="service-heading">Wartość</h4>
+            <p class="text-center">Wszystkie nasze produkty są konkurencyjne cenowo. Przekonasz się, że wysokiej jakości, niestandardowe, szafy i szafki firmy Vero są konkurencyjne cenowo w porównaniu do wyrobów produkowanych masowo.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
-</body>
-
-</html>
+    </section>
+   
+  
+    <!-- Portfolio Grid -->
+    <section class="bg-faded" id="portfolio">
+      <div class="container-full">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Wybrane projekty</h2>
+            <h3 class="section-subheading text-muted">...kuchni, z których jesteśmy dumni,</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="tz-gallery">
+            <div class="row">
+              
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/1.jpg"> <img src="img/portfolio/kuchnie/thumb/1_t.jpg" alt="kuchnia01"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/2.jpg"> <img src="img/portfolio/kuchnie/thumb/2_t.jpg" alt="kuchnia02"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/3.jpg"> <img src="img/portfolio/kuchnie/thumb/3_t.jpg" alt="kuchnia03"> </a>
+              </div>
+              
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/5.jpg"> <img src="img/portfolio/kuchnie/thumb/5_t.jpg" alt="kuchnia05"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/6.jpg"> <img src="img/portfolio/kuchnie/thumb/6_t.jpg" alt="kuchnia06"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/7.jpg"> <img src="img/portfolio/kuchnie/thumb/7_t.jpg" alt="kuchnia07"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/8.jpg"> <img src="img/portfolio/kuchnie/thumb/8_t.jpg" alt="kuchnia08"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/9.jpg"> <img src="img/portfolio/kuchnie/thumb/9_t.jpg" alt="kuchnia09"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/10.jpg"> <img src="img/portfolio/kuchnie/thumb/10_t.jpg" alt="kuchnia10"> </a>
+              </div>
+  
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/11.jpg"> <img src="img/portfolio/kuchnie/thumb/11_t.jpg" alt="kuchnia11"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/12.jpg"> <img src="img/portfolio/kuchnie/thumb/12_t.jpg" alt="kuchnia12"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/13.jpg"> <img src="img/portfolio/kuchnie/thumb/13_t.jpg" alt="kuchnia13"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/14.jpg"> <img src="img/portfolio/kuchnie/thumb/14_t.jpg" alt="kuchnia14"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/15.jpg"> <img src="img/portfolio/kuchnie/thumb/15_t.jpg" alt="kuchnia15"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/16.jpg"> <img src="img/portfolio/kuchnie/thumb/16_t.jpg" alt="kuchnia16"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/17.jpg"> <img src="img/portfolio/kuchnie/thumb/17_t.jpg" alt="kuchnia17"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/18.jpg"> <img src="img/portfolio/kuchnie/thumb/18_t.jpg" alt="kuchnia18"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/19.jpg"> <img src="img/portfolio/kuchnie/thumb/19_t.jpg" alt="kuchnia19"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/20.jpg"> <img src="img/portfolio/kuchnie/thumb/20_t.jpg" alt="kuchnia20"> </a>
+              </div>
+  
+               <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/21.jpg"> <img src="img/portfolio/kuchnie/thumb/21_t.jpg" alt="kuchnia21"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/22.jpg"> <img src="img/portfolio/kuchnie/thumb/22_t.jpg" alt="kuchnia22"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/23.jpg"> <img src="img/portfolio/kuchnie/thumb/23_t.jpg" alt="kuchnia23"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/24.jpg"> <img src="img/portfolio/kuchnie/thumb/24_t.jpg" alt="kuchnia24"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/25.jpg"> <img src="img/portfolio/kuchnie/thumb/25_t.jpg" alt="kuchnia25"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/26.jpg"> <img src="img/portfolio/kuchnie/thumb/26_t.jpg" alt="kuchnia26"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/27.jpg"> <img src="img/portfolio/kuchnie/thumb/27_t.jpg" alt="kuchnia27"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/28.jpg"> <img src="img/portfolio/kuchnie/thumb/28_t.jpg" alt="kuchnia28"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/29.jpg"> <img src="img/portfolio/kuchnie/thumb/29_t.jpg" alt="kuchnia29"> </a>
+              </div>
+             
+               <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/31.jpg"> <img src="img/portfolio/kuchnie/thumb/31_t.jpg" alt="kuchnia31"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/32.jpg"> <img src="img/portfolio/kuchnie/thumb/32_t.jpg" alt="kuchnia32"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/33.jpg"> <img src="img/portfolio/kuchnie/thumb/33_t.jpg" alt="kuchnia33"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/34.jpg"> <img src="img/portfolio/kuchnie/thumb/34_t.jpg" alt="kuchnia34"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/35.jpg"> <img src="img/portfolio/kuchnie/thumb/35_t.jpg" alt="kuchnia35"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/36.jpg"> <img src="img/portfolio/kuchnie/thumb/36_t.jpg" alt="kuchnia36"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/37.jpg"> <img src="img/portfolio/kuchnie/thumb/37_t.jpg" alt="kuchnia37"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/38.jpg"> <img src="img/portfolio/kuchnie/thumb/38_t.jpg" alt="kuchnia38"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/39.jpg"> <img src="img/portfolio/kuchnie/thumb/39_t.jpg" alt="kuchnia39"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/40.jpg"> <img src="img/portfolio/kuchnie/thumb/40_t.jpg" alt="kuchnia40"> </a>
+              </div>
+  
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/41.jpg"> <img src="img/portfolio/kuchnie/thumb/41_t.jpg" alt="kuchnia41"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/42.jpg"> <img src="img/portfolio/kuchnie/thumb/42_t.jpg" alt="kuchnia42"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/43.jpg"> <img src="img/portfolio/kuchnie/thumb/43_t.jpg" alt="kuchnia43"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/kuchnie/44.jpg"> <img src="img/portfolio/kuchnie/thumb/44_t.jpg" alt="kuchnia44"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/45.jpg"> <img src="img/portfolio/kuchnie/thumb/45_t.jpg" alt="kuchnia45"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/46.jpg"> <img src="img/portfolio/kuchnie/thumb/46_t.jpg" alt="kuchnia46"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/47.jpg"> <img src="img/portfolio/kuchnie/thumb/47_t.jpg" alt="kuchnia47"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/48.jpg"> <img src="img/portfolio/kuchnie/thumb/48_t.jpg" alt="kuchnia48"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/49.jpg"> <img src="img/portfolio/kuchnie/thumb/49_t.jpg" alt="kuchnia49"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/kuchnie/50.jpg"> <img src="img/portfolio/kuchnie/thumb/50_t.jpg" alt="kuchnia50"> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+         <div class="row">
+                      <div class="col-lg-12 text-center">
+                      <h3 class="section-subheading text-muted">... oraz szaf</h3>
+                      </div>
+        </div>
+  
+        <div class="row">
+          <div class="tz-gallery">
+            <div class="row">
+              
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/szafy/1.jpg"> <img src="img/portfolio/szafy/thumb/1_t.jpg" alt="szafa01"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/szafy/2.jpg"> <img src="img/portfolio/szafy/thumb/2_t.jpg" alt="szafa02"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="img/portfolio/szafy/3.jpg"> <img src="img/portfolio/szafy/thumb/3_t.jpg" alt="szafa03"> </a>
+              </div>
+              
+              
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/szafy/5.jpg"> <img src="img/portfolio/szafy/thumb/5_t.jpg" alt="szafa05"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/szafy/6.jpg"> <img src="img/portfolio/szafy/thumb/6_t.jpg" alt="szafa06"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/szafy/7.jpg"> <img src="img/portfolio/szafy/thumb/7_t.jpg" alt="szafa07"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/szafy/8.jpg"> <img src="img/portfolio/szafy/thumb/8_t.jpg" alt="szafa08"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/szafy/9.jpg"> <img src="img/portfolio/szafy/thumb/9_t.jpg" alt="szafa09"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/szafy/10.jpg"> <img src="img/portfolio/szafy/thumb/10_t.jpg" alt="szafa10"> </a>
+              </div>
+               <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/szafy/11.jpg"> <img src="img/portfolio/szafy/thumb/11_t.jpg" alt="szafa11"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/szafy/12.jpg"> <img src="img/portfolio/szafy/thumb/12_t.jpg" alt="szafa12"> </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                 <a class="lightbox" href="img/portfolio/szafy/13.jpg"> <img src="img/portfolio/szafy/thumb/13_t.jpg" alt="szafa13"> </a>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="row"> </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <h2 class="section-heading">O nas</h2>
+            <h3 class="section-subheading text-muted">.</h3>
+            <p class="text-justify"> Oferujemy meble o dowolnych wymiarach z wykorzystaniem różnorodnych materiałów. Wieloletnie doświadczenie umożliwia nam wykonywać meble funkcjonalne, estetyczne i trwałe. W naszych meblach na wymiar stosujemy rozwiązania praktyczne i sprawdzone,
+              które pozwalają na maksymalne wykorzystanie powierzchni dostępnej do zabudowy. Wykonujemy na zamówienie: meble kuchenne, meble pokojowe, szafy wnękowe z drzwiami przesuwnymi i tradycyjnie otwierane szafy wolno-stojące, meble łazienkowe, garderoby,
+              meble sklepowe, meble biurowe oraz inne nietypowe meble na wymiar. staramy się aby zamawiane u nas szafy były jak najbardziej FUNKCJONALNE i PRAKTYCZNE a jednocześnie estetyczne i elegancko prezentowały się we wnętrzu. Gwarantujemy, że nasze
+              szafy będą prawdziwą OZDOBĄ każdego pomieszczenia! Proponujemy szafy wszelkich typów: szafy ubraniowe - dostosowane do przechowywania garderoby szafy wnękowe - zabudowujące małe przestrzenie, najczęściej z drzwiami przesuwnymi szafy gospodarcze
+              - bez problemu znajdzie się w nich miejsce na deskę do prasowania czy odkurzacz szafy biurowe - służące do ergonomicznego składowania dokumentów szafy kuchenne, spiżarniane, szafki na buty, pawlacze To nowoczesne i wygodne rozwiązanie problemu
+              efektywnego zagospodarowania przestrzeni. </p>
+          </div>
+          <div class="col-md-6"><img class="center-block img-fluid d-block" src="img\sz-bg.jpg"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6"><img class="center-block img-fluid d-block" src="img\kuch.jpg"></div>
+          <div class="col-md-6">
+            <p> Kuchnia to jedno z najważniejszych, a jednocześnie najbardziej eksploatowanych miejsc w każdym domu. Z tego powodu meble kuchenne muszą być nie tylko piękne, ale także bardzo funkcjonalne i trwałe, solidne i eleganckie. Posiadamy wieloletnie,
+              bogate doświadczenie, oraz wielu zadowolonych klientów, którzy nawet po latach użytkowania zaprojektowanej i wykonanej przez nas kuchni doceniają jej walory – zarówno wizualne, jak i czysto praktyczne. Nasza oferta zawiera między innymi: fronty
+              laminowane fronty lakierowane matowe, z półpołyskiem lub z wysokim połyskiem fronty foliowane fronty ramowo-płyciniowe fronty fornirowane, czyli oklejane warstwą naturalnego drewna Aby ułatwić przechowywanie i dostęp do kuchennych narzędzi
+              i produktów proponujemy wykorzystanie takich elementów wyposażenia jak: carga, carga maxi lub obrotowe szuflady z dociągiem lub cichym domykiem wysuwane organizery i magic boxy suszarki, półki na wina, kosze na śmieci montowane w szafkach
+              Obsługujemy Klientów na terenie miasta Tychy i najbliższych okolic Zachęcamy do kontaktu i gwarantujemy długoletnie zadowolenie z wykonanych przez nas mebli na wymiar oraz krótki czas realizacji. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Skontaktuj się z nami</h2>
+        
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="team-member"> <img class="mx-auto rounded-circle" src="img/team/man1.png" alt="">
+              <h4>Sławomir Mikołajczyk</h4>
+              <p class="lead"><i style="font-size:30px;" class="fa fa-phone"><strong>  503 575 403</strong></i></p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item"> <a href="https://www.facebook.com/verotychy"><i class="fa fa-facebook"></i></a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="team-member"> <img class="mx-auto rounded-circle" src="img/team/woman1.png" alt="">
+              <h4>Beata Mikołajczyk</h4>
+              <p class="lead"><i style="font-size:30px;" class="fa fa-phone"><strong>  508 245 282</strong></i></p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item"> <a href="https://www.facebook.com/verotychy"><i class="fa fa-facebook"></i></a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Mapa-->
+    <section id="mapy" class="p-0">
+      <div class="container-full" id="map" style="width:100%;height:55%;">
+        <div class="row"> </div>
+      </div>
+    </section>
+    <!-- Clients -->
+    <section>
+      <div class="container" id="sup1">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <a href="http://www.swisskrono.pl"> <img class="img-fluid d-block mx-auto" src="img/logos/swiss.jpg" alt=""> </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="http://www.blum.com"> <img class="img-fluid d-block mx-auto" src="img/logos/blum.jpg" alt=""> </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="http://zobal.com.pl"> <img class="img-fluid d-block mx-auto" src="img/logos/zobal.jpg" alt=""> </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="https://www.spax.com"> <img class="img-fluid d-block mx-auto" src="img/logos/spax.jpg" alt=""> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"> <span class="copyright">Copyright © vero.tychy.pl 2017</span> </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item"> <a href="https://www.facebook.com/verotychy"><i class="fa fa-facebook"></i></a> </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks"> </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run('.tz-gallery');
+    </script>
+    <script>
+      function init_map(){
+        var myOptions = {zoom:12,center:new google.maps.LatLng(50.1115489,19.001240000000053),mapTypeId: google.maps.MapTypeId.ROADMAP};
+        map = new google.maps.Map(document.getElementById('map'), myOptions);
+        //marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.1115489,19.001240000000053)});
+        //infowindow = new google.maps.InfoWindow({content:'<center><img src="favico.png" height="72"></img><br>Al. Niepodległości 186,<br>43-100 Tychy</center>'});
+        //google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});
+        infowindow.open(map);}
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMTOPFWR9YXddEkOgN8sM8p2OKroyv1qU&amp;callback=init_map"></script>
+    <!--
+  
+  </body>
+  
+  </html>-->
+  </body>
+  
+  </html>
